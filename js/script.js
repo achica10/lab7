@@ -1,5 +1,10 @@
 function init(){
-//add your javascrip between these two lines of code
+  function alertBox(){
+    var textInput = document.getElementById('entryinput');
+	var textOutput = document.getElementById('textoutput');
+	textOutput.innerHTML = textInput.value;
+	alert("Alexandru Chica: " + textInput);
+  }
  
 
 
